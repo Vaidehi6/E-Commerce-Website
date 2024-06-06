@@ -110,15 +110,14 @@
      z-index: 1000;
  }
 
- /* .dropdown-head:hover{
+.dropdown-head:hover ul.dropdown{
      display: block;
 
- } */
- .dropdown-head i ul.dropdown {
-     display: block;
+ }
+ /* .dropdown-head i ul.dropdown {
      transition: all 0.4s ease;
  }
 
- /* .dropdown-head i:hover {
+.dropdown-head i:hover {
      transform: rotate(180deg);
- } */
+ }  */
