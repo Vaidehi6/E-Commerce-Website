@@ -119,6 +119,6 @@
      transition: all 0.4s ease;
  }
 
- .dropdown-head i:hover {
+ /* .dropdown-head i:hover {
      transform: rotate(180deg);
- }
+ } */
