@@ -88,7 +88,7 @@
 }
 
 .collection-list ul :hover {
-    color: #884641;
+    color: #9a6a65;
 }
 
 .collection-list ul li {
@@ -166,7 +166,7 @@
 
 .icon-text-wrap i {
     font-size: 30px;
-    color: #d19c97;
+    color: #D19C97;
 }
 
 .icon-text-wrap span {
@@ -200,9 +200,7 @@
     right: 0;
     left: 0;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
-    /* color: #a34b7b; */
     color: #9a6a65;
     background-color: #fff;
     width: fit-content;
@@ -233,11 +231,11 @@
 }
 
 .offer-banner .offer-text h5 {
-    color: #D19C97;
-    font-size: 23px;
+    color: #9a6a65;
+    font-size: 20px;
     text-transform: uppercase;
     margin: 0;
-    font-weight: 400px;
+    font-weight: 600px;
 }
 
 .offer-banner .offer-text h3 {
@@ -253,8 +251,8 @@
 
 .offer-banner .offer-text button {
     padding: 15px 30px;
-    color: #D19C97 !important;
-    border: 1px solid #D19C97;
+    color: #9a6a65 !important;
+    border: 1px solid #9a6a65;
     background-color: transparent;
     cursor: pointer;
 }
@@ -271,7 +269,6 @@
 }
 
 .cart .cart-details {
-    /* border-top: 1px solid #ddd; */
     border-bottom: 1px solid #ddd;
     padding: 15px;
 }
@@ -307,8 +304,60 @@
 }
 
 .cart .cart-footer a {
-    color: #d19c97;
+    color: #D19C97;
     font-size: 14px;
     text-decoration: none;
+
+}
+
+.stay-updated {
+    margin-bottom: 100px;
+    background-color: #e1e7fc;
+    margin-left: -5.5%;
+    margin-right: -5.5%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 32%;
+    padding-right: 32%;
+    padding-bottom: 80px;
+}
+
+.stay-updated .updated-text {
+    line-height: 2;
+    color: #07285D
+}
+
+.stay-updated .updated-inputs {
+    display: flex;
+
+}
+
+.stay-updated .email-input {
+    height: 27px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    text-align: center;
+    flex: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    font-size: 13px;
+}
+
+.email-btn {
+    border-radius: .04rem;
+    border: 1px solid #D19C97;
+    color: #000;
+    background-color: #07285D;
+    padding: 13px 30px;
+    font-size: 16px;
+    text-align: center;
+    width: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    margin-top: .21rem;
 
 }
