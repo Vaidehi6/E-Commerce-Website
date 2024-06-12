@@ -353,6 +353,7 @@
     vertical-align: middle;
     white-space: nowrap;
     bottom: 1px;
+
 }
 
 
@@ -369,7 +370,8 @@
     outline: none;
     /* color: rgb(245, 220, 220); */
     color: #fff;
-    background-color: #07285D;
+    /* background-color: #07285D; */
+    background-color: #D19C97;
     padding: 9px 30px;
     cursor: pointer;
     justify-content: center;
