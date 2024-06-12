@@ -332,7 +332,7 @@
 
 }
 
-.stay-updated .email-input {
+.stay-updated .gmail-input {
     height: 27px;
     border: none;
     outline: none;
@@ -342,22 +342,38 @@
     font-size: 16px;
     border-bottom: 1px solid #000;
     background-color: transparent;
-    font-size: 13px;
 }
 
-.email-btn {
-    border-radius: .04rem;
-    border: 1px solid #D19C97;
-    color: #000;
-    background-color: #07285D;
-    padding: 13px 30px;
-    font-size: 16px;
-    text-align: center;
-    width: 2rem;
+.stay-updated .agreement .check-box {
     cursor: pointer;
-    display: flex;
+    display: inline-block;
+    line-height: 1;
+    outline: none;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    bottom: 1px;
+}
+
+
+.stay-updated .agreement .policy {
+    font-size: 16px;
+    line-height: 3;
+    margin-left: .08rem;
+}
+
+
+.email-btn {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    /* color: rgb(245, 220, 220); */
+    color: #fff;
+    background-color: #07285D;
+    padding: 9px 30px;
+    cursor: pointer;
     justify-content: center;
     line-height: 1;
-    margin-top: .21rem;
+    margin-top: 10px;
 
 }
