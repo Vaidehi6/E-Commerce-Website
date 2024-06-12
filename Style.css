@@ -256,6 +256,39 @@
     background-color: transparent;
     cursor: pointer;
 }
+.center {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.center .lines{
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+
+  }
+
+  .center .lines:before{
+    content:" ";
+    height: 2px;
+    width: 100px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+  .center .lines:after{
+    content:" ";
+    height: 2px;
+    width: 100px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
 
 .cart {
     border: 1px solid #ddd;
