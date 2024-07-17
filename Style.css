@@ -548,5 +548,25 @@
 }
 
 @media only screen and (max-width: 992px) {
+    .search-product{
+        display: flex;
+    }
+    .search-product input {
+        flex: 100%;
+
+    }
+    .selected-product{
+        text-align: left;
+    }
+    .shop-menu ul{
+        display: block;
+    }
+
+    .shop-menu ul li{
+        padding: 10px;
+    }
+    .banner {
+        float: none;
+    }
 
 }

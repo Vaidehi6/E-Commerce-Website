@@ -75,7 +75,8 @@
  .shop-menu ul li {
      min-width: 75px;
      padding: 20px;
-     background-color: #ffffffaa;
+     /* background-color: #ffffffaa; */
+     background-color: #ffffff;
  }
 
  .shop-menu ul li a {
@@ -110,19 +111,21 @@
      z-index: 1000;
  }
 
-.dropdown-head:hover ul.dropdown{
+ .dropdown-head:hover ul.dropdown {
      display: block;
 
  }
 
  @media only screen and (max-width: 992px) {
-    .wid-25, .wid-50 {
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .arrange-left{
-        float: none;
-    }
-}
 
+     .wid-25, .wid-50, .wid-75, .wid-33 {
+         width: 100%;
+         margin-top: 20px;
+         margin-bottom: 20px;
+     }
+
+     .arrange-left {
+         float: none;
+     }
+
+ }
